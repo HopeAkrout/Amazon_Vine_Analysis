@@ -34,3 +34,45 @@ SELECT * FROM review_id_table;
 SELECT * FROM products_table;
 SELECT * FROM customers_table;
 SELECT * FROM vine_table;
+
+
+
+-- vine_filtered_helpful table
+CREATE TABLE vine_filtered_helpful_table (
+  review_id TEXT PRIMARY KEY,
+  star_rating INTEGER,
+  helpful_votes INTEGER,
+  total_votes INTEGER,
+  vine TEXT,
+  verified_purchase TEXT
+);
+
+
+-- unpaid table
+CREATE TABLE unpaid_table (
+  review_id TEXT PRIMARY KEY,
+  star_rating INTEGER,
+  helpful_votes INTEGER,
+  total_votes INTEGER,
+  vine TEXT,
+  verified_purchase TEXT
+);
+
+
+
+-- vine_over20 table
+CREATE TABLE vine_over20_table (
+  review_id TEXT PRIMARY KEY,
+  star_rating INTEGER,
+  helpful_votes INTEGER,
+  total_votes INTEGER,
+  vine TEXT,
+  verified_purchase TEXT
+);
+
+
+
+-- Query database to check successful upload
+SELECT * FROM vine_filtered_helpful_table;
+SELECT * FROM unpaid_table;
+SELECT * FROM vine_over20_table;
