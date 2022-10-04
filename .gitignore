@@ -1,3 +1,8 @@
+# more files to ignore
+amazon_reviews_us_Books_v1_02.tsv.gz
+RDS database.png 
+S3 .gz file in bucket.png 
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
