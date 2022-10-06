@@ -2,7 +2,7 @@
 
 ### Overview
 
-This project is aimed at analyzing Amazon reviews written by members of the paid Amazon Vine program in order to help the client glean information on whetehr adopting a similar program would be beneficial.  The data reviweed for this analysis was Amazon reviews in the US on books purchased.  The client requested three questions to be answered, as listed below under **Results**.
+This project is aimed at analyzing Amazon reviews written by members of the paid Amazon Vine program in order to help the client glean information on whether adopting a similar program would be beneficial.  The data reviewed for this analysis was Amazon reviews in the US on books purchased.  The client requested three questions to be answered, as listed below under **Results**.
 
 
 ## Results
